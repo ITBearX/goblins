@@ -12,12 +12,12 @@ BG_COLOR = (0, 0, 0)
 IMG_FOLDER = "images"
 
 PLAYER_SIZE = 128
-GEM_SIZE = 64
 PLAYER_IMG = "pokemon-2.png"
 
-INIT_GEMS = 5
-GEM_EMERGE_TIME = 5.0
-GEM_LIFE_TIME = 5.0
+GEM_SIZE = 64
+INIT_GEMS = 10
+GEM_EMERGE_TIME = 10.0
+GEM_LIFE_TIME = 10.0
 GEM_VALUES = (1, 5, 10, 50)
 GEM_IMGS = (
     "gem-red.png",
@@ -26,4 +26,7 @@ GEM_IMGS = (
     "gem-green.png",
 )
 
-GOBLIN_IMG = "goblin.png"
+GOBLIN_SIZE = 128
+GOBLIN_EMERGE_TIME = 2.0
+GOBLIN_MAX_SPEED = 10
+GOBLIN_IMG = "goblin-1.png"
