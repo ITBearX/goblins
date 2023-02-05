@@ -1,0 +1,16 @@
+FPS = 50
+WIDTH = 1600
+HEIGHT = 1200
+
+ACCELERATION = 1.2
+SLOWDOWN = 0.98
+BUMP_RATIO = 0.8
+MAX_SPEED = 20
+
+BG_COLOR = (0, 0, 0)
+
+OBJ_SIZE = 128
+IMG_FOLDER = "images"
+PLAYER_IMG = "pokemon-2.png"
+GOBLIN_IMG = "goblin.gif"
+GOLD_IMG = "gold.gif"
