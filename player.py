@@ -1,14 +1,24 @@
 from pygame.sprite import Sprite
+from random import randint
+
 from config import ACCELERATION, SLOWDOWN, BUMP_RATIO, MAX_SPEED
 
 
 class Player(Sprite):
 
     def __init__(self, screen, image):
+
         Sprite.__init__(self)
+
         self.screen = screen
         self.image = image
         self.rect = self.image.get_rect()
+        self.radius = self.rect.width // 2
+
+        w, h = screen.get_size()
+        self.rect.x = randint(0.1 * w, 0.9 * w)
+        self.rect.y = randint(0.1 * h, 0.9 * h)
+
         self.vx, self.vy = 0, 0
         self.ax, self.ay = 0, 0
 

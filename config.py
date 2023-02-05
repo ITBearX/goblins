@@ -9,8 +9,21 @@ MAX_SPEED = 20
 
 BG_COLOR = (0, 0, 0)
 
-OBJ_SIZE = 128
 IMG_FOLDER = "images"
+
+PLAYER_SIZE = 128
+GEM_SIZE = 64
 PLAYER_IMG = "pokemon-2.png"
-GOBLIN_IMG = "goblin.gif"
-GOLD_IMG = "gold.gif"
+
+INIT_GEMS = 5
+GEM_EMERGE_TIME = 5.0
+GEM_LIFE_TIME = 5.0
+GEM_VALUES = (1, 5, 10, 50)
+GEM_IMGS = (
+    "gem-red.png",
+    "gem-yellow.png",
+    "gem-blue.png",
+    "gem-green.png",
+)
+
+GOBLIN_IMG = "goblin.png"
