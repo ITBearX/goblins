@@ -26,8 +26,8 @@ class Goblin(Sprite):
             self.rect.x = randint(0, 1) * w
 
         min_speed = GOBLIN_MAX_SPEED / 2
-        vx = randint(min_speed, GOBLIN_MAX_SPEED)
-        vy = randint(min_speed, GOBLIN_MAX_SPEED)
+        vx = uniform(min_speed, GOBLIN_MAX_SPEED)
+        vy = uniform(min_speed, GOBLIN_MAX_SPEED)
         self.vx = choice((vx, -vx))
         self.vy = choice((vy, -vy))
 

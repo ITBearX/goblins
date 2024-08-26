@@ -16,8 +16,8 @@ class Player(Sprite):
         self.radius = self.rect.width // 2
 
         w, h = screen.get_size()
-        self.rect.x = randint(0.1 * w, 0.9 * w)
-        self.rect.y = randint(0.1 * h, 0.9 * h)
+        self.rect.x = randint(int(0.1 * w), int(0.9 * w))
+        self.rect.y = randint(int(0.1 * h), int(0.9 * h))
 
         self.vx, self.vy = 0, 0
         self.ax, self.ay = 0, 0
